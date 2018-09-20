@@ -104,17 +104,17 @@ var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/i
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _FullPage = __webpack_require__(/*! ./Components/common/FullPage */ "./ClientApp/Components/common/FullPage.js");
-
-var _FullPage2 = _interopRequireDefault(_FullPage);
-
 var _reactRouter = __webpack_require__(/*! react-router */ "./node_modules/react-router/es/index.js");
 
 var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 
+var _FullPage = __webpack_require__(/*! ./Components/common/FullPage */ "./ClientApp/Components/common/FullPage.js");
+
+var _FullPage2 = _interopRequireDefault(_FullPage);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(
+_reactDom2.default.hydrate(_react2.default.createElement(
     _reactRouterDom.BrowserRouter,
     { history: _reactRouter.browserHistory },
     _react2.default.createElement(_FullPage2.default, null)
