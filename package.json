@@ -8,6 +8,8 @@
     "babel-core": "^6.26.0",
     "copyfiles": "^2.0.0",
     "cpx": "^1.5.0",
+    "dotenv": "^6.0.0",
+    "dotenv-webpack": "^1.5.7",
     "express-history-api-fallback": "^2.2.1",
     "fs": "0.0.1-security",
     "json-server": "^0.14.0",
@@ -35,7 +37,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "express": "^4.16.2",
-    "redux-devtools-extension": "^2.13.5"
+    "redux-devtools-extension": "^2.13.5",
+    "redux-immutable-state-invariant": "^2.1.0"
   },
   "scripts": {
     "start:dev": "webpack-dev-server --config webpack.client.js --hot  --content-base public --history-api-fallback",

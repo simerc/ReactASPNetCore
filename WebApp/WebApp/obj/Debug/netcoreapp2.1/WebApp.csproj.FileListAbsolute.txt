@@ -9,7 +9,7 @@ C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\bin\Debug\netcoreap
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.csprojAssemblyReference.cache
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorAssemblyInfo.cache
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorAssemblyInfo.cs
-C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.RazorTargetAssemblyInfo.cache
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.dll
 C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\WebApp.pdb
+C:\projects\pluralsight\React\ReactASP.NetCore\WebApp\WebApp\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
