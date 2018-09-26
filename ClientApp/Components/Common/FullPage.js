@@ -1,18 +1,30 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+
 
 import CodeCampMenu from './CodeCampMenu';
 import PageTop from './PageTop';
 import Footer from './Footer';
-import Routes from "../../Routes";
+import Routes from '../../Routes';
 
 class FullPage extends Component {
+
+    constructor(props){
+        super(props);
+        this.handler = this.handler.bind(this);
+    }
+
+    handler(val) {
+        this.props.action();
+    }
+
+
     render() {
         return (
             <div>
                 <PageTop>
                     <CodeCampMenu />
                 </PageTop>
-                <Routes />
+                <Routes  action={this.handler}  />
                 <Footer />
             </div>
         );
